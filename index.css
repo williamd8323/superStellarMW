@@ -15,5 +15,6 @@ video {
 .int{
     display: none;
     color: white;
-    font-size: 100px;
+    font-size: 150px;
+    font-weight: bold;
 }
