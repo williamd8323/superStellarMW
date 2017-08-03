@@ -16,7 +16,11 @@ function showIntro(pauseTime){
             setTimeout(function(){ 
             $('#l').fadeIn(700)}, pauseTime*17);
             setTimeout(function(){ 
-			$('#2l').fadeIn(700)}, pauseTime*19);
+            $('#2l').fadeIn(700)}, pauseTime*19);
+            setTimeout(function(){ 
+            $('.info').fadeIn(700)}, pauseTime*21);
 }
+
+$('.info').hide();
 
 showIntro(200);
